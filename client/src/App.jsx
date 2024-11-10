@@ -5,11 +5,8 @@ const App = () => {
   const x = useRef()
 
   const demo = () => {
-    console.log(x);
     console.log(x.current);
     console.log(x.current.innerText);
-    
-    
   }
 
   return (
